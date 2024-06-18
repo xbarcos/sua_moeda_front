@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Logo() {
   return (
     <>
-        <a href="https:iuupi.com.br" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <FontAwesomeIcon icon={faCoins} color="white"/>
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SUA MOEDA</span>
+        <a href="/" className="flex items-center space-x-1 rtl:space-x-reverse">
+            <img src="icon_sua_moeda.png" alt="icone sua moeda" width={32}/>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#FFDE59]">SUA</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">MOEDA</span>
         </a>
     </>
   );

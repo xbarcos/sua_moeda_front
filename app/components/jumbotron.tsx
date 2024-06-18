@@ -3,8 +3,14 @@ import HeroText from "./heroText";
 export default function Jumbotron() {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900" id="home">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+      <section
+        className="relative bg-white dark:bg-gray-900"
+        id="home"
+      >
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+             style={{ backgroundImage: 'url(bg-network.jpg)' }}
+        ></div>
+        <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
           <HeroText
             title="Crie moedas digitais!"
             subtitle="A Sua Moeda veio para solucionar todos os problemas na hora de criar sua

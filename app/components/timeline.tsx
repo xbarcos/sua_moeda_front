@@ -36,7 +36,7 @@ export default function Timeline() {
             DIA OU AJUSTADO SOB DEMANDA DO CLIENTE.
           </p>
         </li>
-        <li className="mb-10 ms-4">
+        {/* <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="text-normal font-bold leading-none text-gray-900 mb-1">
             IMPOSTO
@@ -44,7 +44,7 @@ export default function Timeline() {
           <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg">
             TODO O VALOR GASTO VOLTA PARA OS COFRES PÚBLICOS EM UM CICLO FECHADO.
           </p>
-        </li>
+        </li> */}
       </ol>
     </>
   );

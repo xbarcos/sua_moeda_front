@@ -18,25 +18,28 @@ export default function Footer() {
                   Sobre Nós
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/#showcase" className="hover:underline me-4 md:me-6">
                   Vantagens
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="/uberrima" className="hover:underline">
                   Ubérrima
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://iuupi.com.br" className="hover:underline">
+            <a href="/" className="hover:underline">
               Sua Moeda™
             </a>
-            . Todos os direitos reservados.
+            . Todos os direitos reservados. Desenvolvido por{" "}
+            <a href="https://iuupi.com.br" className="hover:underline">
+              IUUPI™
+            </a>
           </span>
         </div>
       </footer>

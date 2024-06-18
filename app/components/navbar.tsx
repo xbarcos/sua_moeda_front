@@ -28,22 +28,22 @@ export default function NavBar(props: any) {
                   Sobre Nós
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="/#showcase"
                   className={`block py-2 px-3 md:p-0 rounded md:bg-transparent ${active === 'vantagens' ? 'text-blue-700' : 'text-white hover:text-blue-700'}`}
                 >
                   Vantagens
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="/uberrima"
                   className={`block py-2 px-3 md:p-0 rounded md:bg-transparent ${active === 'uberrima' ? 'text-blue-700' : 'text-white hover:text-blue-700'}`}
                 >
                   Ubérrima
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

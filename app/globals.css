@@ -6,3 +6,12 @@
     background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%);
     border-color: rgb(93, 79, 240);
 }
+
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 1px white;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px white;
+    }
+  }

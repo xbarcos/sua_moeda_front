@@ -11,7 +11,7 @@ export default function Fortalecendo() {
             src="fortalecendo_cycle.png"
             className="h-96"
           />
-          <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg mt-4">
+          <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg mt-4 m-2">
             Grandes pólos econômicos movimentam bilhões com sua economia local,
             estimulando e circulando seu dinheiro interno e retendo ele na
             região.
@@ -24,7 +24,7 @@ export default function Fortalecendo() {
             src="moeda_valiosa.png"
             className="h-96"
           />
-          <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg mt-4">
+          <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg mt-4 m-2">
             Com o <strong>Cashback</strong> o dinheiro digital se torna mais vantajoso que o
             dinheiro real, estimulando o setor privado a investir e somar o
             montante.

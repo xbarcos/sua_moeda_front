@@ -3,16 +3,17 @@ import Navbar from "../components/navbar";
 import React from "react";
 import Fortalecendo from "./components/fortalecendo";
 import Footer from "../components/footer";
+import Showcase from "../components/showcase";
 
 export default function Uberrima() {
   return (
     <>
-      <Navbar active="uberrima" />
+      <Navbar />
       <section className="bg-gray-900" id="home">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center items-center flex flex-col justify-center lg:py-16">
           <img src="uberrima.png" className="mb-4 rounded-full" alt="cedulas" />
           <HeroText
-            title="A primeira moeda local do Brasil!"
+            title="A primeira moeda local impressa do Brasil!"
             subtitle='"Desenvolvida com objetivo de fortalecer a economia local, fruto de uma parceria entre a Prefeitura Municipal de Resplendor/MG e o Sebrae/MG. Esta cédula possui validade apenas no território do Município de Resplendor/MG."'
           />
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
@@ -42,10 +43,12 @@ export default function Uberrima() {
         </div>
       </section>
       <div className="mx-auto max-w-screen-lg my-8 text-center">
-				<HeroText title="Como podemos melhorar?" dark={true} biggest={true}/>
+        <p className="text-2xl mb-4">Mas como podemos melhorar?</p>
+				<HeroText title="Bem vindos a Ubérrima Digital!" dark={true} biggest={true}/>
         <img src="uberrima_apps.png" />
       </div>
       <Fortalecendo />
+      <Showcase />
       <Footer />
     </>
   );
