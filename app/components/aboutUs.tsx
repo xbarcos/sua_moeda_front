@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <>
       <section
-        className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mb-8"
+        className="pt-10 overflow-hidden md:pt-0 sm:pt-16 2xl:pt-16 mb-16"
         id="about"
       >
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-8">
@@ -13,11 +13,12 @@ export default function AboutUs() {
               </h2>
               <h4 className="text-gray-500">Since 2008</h4>
               <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-                Somos uma empresa de serviço e tecnologia com mais de{" "}
+                Somos uma empresa de serviço e tecnologia de pagamento, com mais
+                de{" "}
                 <strong className="text-blue-900">
                   15 anos de experiência
                 </strong>{" "}
-                e atuante em todas as regiões do brasil.
+                e atuante em todas as regiões do Brasil.
               </p>
               <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
                 Oferecemos a conta digital do estabelecimento e uma{" "}

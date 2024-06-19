@@ -8,10 +8,7 @@ export default function Timeline() {
             RECARGA
           </p>
           <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg">
-            PREFEITURA OU PRÓPRIO CIDADÃO INSERE O SALDO NA CONTA DIGITAL DO
-            CIDADÃO. VALOR ENTRA COM 10% DE CASHBACK (SUBSÍDIO DO
-            ESTABELECIMENTO), A RECARGA PODE SER FEITA PELO LOGIN DA CONTA
-            DIGITAL.
+            Usuário abastece o saldo da conta digital.
           </p>
         </li>
         <li className="mb-10 ms-4">
@@ -20,9 +17,7 @@ export default function Timeline() {
             VENDA
           </time>
           <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg">
-            CLIENTE COMPRA NOS ESTABELECIMENTOS PARCEIROS USANDO A MOEDA LOCAL.
-            O ESTABELECIMENTO PARCEIRO OFERECE 10% DE CASHBACK PARA QUEM USAR A
-            MOEDA LOCAL. BASTA BAIXAR O APP.
+            Usuário consome no(s) estabelecimento(s) credenciados.
           </p>
         </li>
         <li className="mb-10 ms-4">
@@ -31,9 +26,7 @@ export default function Timeline() {
             REPASSE
           </time>
           <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg">
-            TODO O MONTANTE FICA ARMAZENADO EM UMA CONTA MASTER PARA REPASSES. OS
-            VALORES DAS VENDAS SÃO REPASSADOS PARA OS ESTABELECIMENTOS NO MESMO
-            DIA OU AJUSTADO SOB DEMANDA DO CLIENTE.
+            Receba o valor da recarga no ato da compensação bancária.
           </p>
         </li>
         {/* <li className="mb-10 ms-4">

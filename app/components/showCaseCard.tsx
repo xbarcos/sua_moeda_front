@@ -10,21 +10,28 @@ export default function ShowCaseCard(props: any) {
           <FontAwesomeIcon icon={icon} />
         </div>
         <h3 className="mt-6 text-white text-xl">{title}</h3>
-        <ul className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400 text-start">
+        <ul className={`my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400 space-y-2 ${li2 ? 'text-start' : 'text-center'}`}>
           <li>
-            <FontAwesomeIcon icon={faCheck} />
+            {li2 && (
+              <FontAwesomeIcon icon={faCheck} />
+            )}
             <span className="ml-4 text-white">{li1}</span>
           </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} />
-            <span className="ml-4 text-white">{li2}</span>
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} />
-            <span className="ml-4 text-white">{li3}</span>
-          </li>
+          {li2 && (
+            <li>
+              <FontAwesomeIcon icon={faCheck} />
+              <span className="ml-4 text-white">{li2}</span>
+            </li>
+          )}
+          {li3 && (
+            <li>
+              <FontAwesomeIcon icon={faCheck} />
+              <span className="ml-4 text-white">{li3}</span>
+            </li>
+          )}
         </ul>
       </div>
     </>
   );
 }
+
