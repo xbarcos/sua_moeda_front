@@ -11,7 +11,7 @@ export default function Uberrima() {
       <Navbar />
       <section className="bg-gray-900" id="home">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center items-center flex flex-col justify-center lg:py-16">
-          <img src="uberrima.png" className="mb-4 rounded-full" alt="cedulas" />
+          <img src="uberrima.png" className="mb-4 w-96 h-96 rounded-full" alt="cedulas" />
           <HeroText
             title="A primeira moeda local impressa do Brasil!"
             subtitle='"Desenvolvida com objetivo de fortalecer a economia local, fruto de uma parceria entre a Prefeitura Municipal de Resplendor/MG e o Sebrae/MG. Esta cédula possui validade apenas no território do Município de Resplendor/MG."'

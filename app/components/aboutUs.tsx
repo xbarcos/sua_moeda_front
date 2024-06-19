@@ -31,17 +31,21 @@ export default function AboutUs() {
             </div>
 
             <div className="flex justify-center items-center space-x-8">
-              <img
-                className="relative w-48"
-                src="icon_sua_moeda.png"
-                alt="Logo Iuupi"
-              />
+              <a href="/">
+                <img
+                  className="relative w-48 hover:opacity-70 hover:transform hover:scale-125"
+                  src="icon_sua_moeda.png"
+                  alt="Logo Iuupi"
+                />
+              </a>
               <span className="text-black text-4xl font-normal">X</span>
-              <img
-                className="relative w-48"
-                src="Logo Iuupi.png"
-                alt="Logo Iuupi"
-              />
+              <a href="https://iuupi.com.br" target="_blank">
+                <img
+                  className="relative w-48 hover:opacity-70 hover:transform hover:scale-125"
+                  src="Logo Iuupi.png"
+                  alt="Logo Iuupi"
+                />
+              </a>
             </div>
           </div>
         </div>
