@@ -25,7 +25,7 @@ export default function Fortalecendo() {
             className="h-96"
           />
           <p className="text-base font-normal text-gray-200 bg-gray-900 hover:bg-gray-800 p-4 rounded-lg mt-4 m-2">
-            Com o <strong>Cashback</strong> o dinheiro digital se torna mais vantajoso que o
+            Com o <strong>Cashback</strong>, o dinheiro digital se torna mais vantajoso que o
             dinheiro real, estimulando o setor privado a investir e somar o
             montante.
           </p>

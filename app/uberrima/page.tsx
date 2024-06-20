@@ -44,7 +44,7 @@ export default function Uberrima() {
       </section>
       <div className="mx-auto max-w-screen-lg my-8 text-center">
         <p className="text-2xl mb-4">Mas como podemos melhorar?</p>
-				<HeroText title="Bem vindos a Ubérrima Digital!" dark={true} biggest={true}/>
+				<HeroText title="Bem vindos à Ubérrima Digital!" dark={true} biggest={true}/>
         <img src="uberrima_apps.png" />
       </div>
       <Fortalecendo />
